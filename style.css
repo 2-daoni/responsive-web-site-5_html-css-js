@@ -1,5 +1,6 @@
 :root {
   --white-color: #fff;
+  --blue-color: #3475ca;
 }
 
 * {
@@ -14,7 +15,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background: #3475ca;
+  background: var(--blue-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,4 +78,44 @@
   background: url('images/toggle.png');
   background-size: cover;
   cursor: pointer;
+}
+
+/* ------------About 영역----------- */
+.about {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.about .contentBox {
+  background: #162c3b;
+  padding: 100px;
+  width: 50%;
+}
+
+.heading {
+  color: var(--white-color);
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.heading span {
+  color: var(--blue-color);
+  font-size: 45px;
+}
+
+.text {
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.about .img {
+  background: url('images/window.jpg');
+  width: 50%;
+  background-size: cover;
+  background-position: center;
 }
