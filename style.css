@@ -302,3 +302,38 @@
   cursor: pointer;
   font-weight: 400;
 }
+
+/* --------------Footer 영역---------------- */
+.footer {
+  background: var(--deep-blue-color);
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .text {
+  margin-bottom: 10px;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer ul li {
+  list-style: none;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer ul li a img {
+  filter: invert(1);
+  max-width: 20px;
+  margin-right: 20px;
+}
