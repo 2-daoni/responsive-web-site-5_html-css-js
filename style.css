@@ -158,3 +158,31 @@
   font-size: 25px;
   letter-spacing: 1px;
 }
+
+/* ------------Technology 영역-------------*/
+.technology {
+  background: var(--blue-color);
+  width: 100%;
+  padding: 100px;
+  padding-top: 300px;
+  margin-top: -300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.technology .contentBox {
+  max-width: 800px;
+}
+
+.technology .img {
+  max-width: 250px;
+}
+
+.technology .img img {
+  max-width: 100%;
+}
+
+.technology .contentBox .heading span {
+  color: #162c3b;
+}
