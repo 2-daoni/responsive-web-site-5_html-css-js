@@ -252,3 +252,53 @@
 .testimonials .container .contentBox p {
   font-style: italic;
 }
+
+/* --------------Contact 영역-------------- */
+.contact {
+  padding: 100px;
+  background: var(--deep-blue-color);
+}
+
+.img2 {
+  background: url('images/bg2.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+}
+
+.redbg {
+  background: url('images/red.jpg') !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.form .inputBox {
+  margin-bottom: 40px;
+}
+
+.form .inputBox input,
+.form .inputBox textarea {
+  width: 100%;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--white-color);
+  border-bottom: 2px solid var(--white-color);
+}
+
+.form .inputBox input::placeholder,
+.form .inputBox textarea::placeholder {
+  color: var(--white-color);
+}
+
+.form .inputBox input[type='submit'] {
+  width: 150px;
+  background: var(--white-color);
+  color: #111;
+  cursor: pointer;
+  font-weight: 400;
+}
