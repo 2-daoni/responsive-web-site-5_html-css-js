@@ -337,3 +337,94 @@
   max-width: 20px;
   margin-right: 20px;
 }
+
+/* --------------미디어 쿼리--------------*/
+@media (max-width: 991px) {
+  .banner,
+  .services,
+  .technology,
+  .client,
+  .contact {
+    padding: 50px;
+  }
+
+  .banner header {
+    padding: 20px 50px;
+  }
+
+  .banner .content h2 {
+    font-size: 36px;
+  }
+
+  .banner .content p {
+    font-size: 16px;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .about .contentBox,
+  .about .img {
+    width: 100%;
+    padding: 50px;
+    min-height: 400px;
+    text-align: center;
+  }
+
+  .services {
+    margin-top: 300px;
+  }
+
+  .services .container {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .services .container .servicesBox {
+    margin: 20px;
+    width: 300px;
+    height: 350px;
+  }
+
+  .technology {
+    padding-top: 300px;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .technology img {
+    margin-top: 40px;
+    max-width: 250px;
+  }
+
+  .technology .heading,
+  .contact .heading {
+    text-align: center;
+  }
+
+  .client .img {
+    justify-content: center;
+  }
+
+  .testimonials {
+    padding: 50px;
+  }
+
+  .testimonials .contentBox {
+    padding: 60px 40px;
+    max-width: 550px;
+    margin-bottom: 40px;
+  }
+
+  .footer {
+    padding: 20px 50px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer .text,
+  .footer ul {
+    margin-bottom: 40px;
+  }
+}
